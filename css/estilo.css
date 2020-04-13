@@ -1,0 +1,226 @@
+/* FORMATAÇÃO GERAL    */
+
+
+
+body{
+
+/*  background: rgb(64, 0, 128); */
+
+ 	background: #eee;	
+
+/* background: url(../img/fundo-principal.png);
+ background-attachment: fixed; */
+
+
+}
+
+
+header {
+	background: rgb(255, 0, 255);
+}
+
+
+
+
+/* ------------- NAVEGAÇÃO 	----------------------*/
+
+
+
+.cor-fundo-header	{
+	background: rgba(0, 0, 0, 0.5);
+
+}
+
+#nav-principal ul li a  {
+	color:#ffffff;
+}
+
+
+
+#logo-ti {
+	color: #ffffff;
+	font-size: 40px;
+	margin-left: 20px;
+	letter-spacing: 8px;
+}
+
+ .navbar-toggler {
+	border-color: #fff;
+}
+
+
+
+
+/* ------------- BOOTSTRAP 	----------------------*/
+
+
+		/*
+
+
+				.fas {
+						margin-bottom:-200%;
+					}
+
+		*/
+
+
+
+
+
+
+/*
+
+
+			 #esquerdo .fas.fa-angle-left, .fas.fa-angle-right{
+
+				color: #ffffffff;
+				position: absolute;
+			    top: 70%;
+			    display: inline-block;
+			    margin-top: -10px;
+			    opacity: 0.9;
+
+		}
+
+
+
+			div.card-img-overlay.titulo-cartao {
+
+				 	position: absolute;
+				 	display: inline-block;
+				 	top: 70%;
+
+			 }
+
+
+*/
+
+
+
+
+
+
+
+
+/* ------------------- capa ------------------------- */
+
+
+
+#capa {
+	margin-top: 50px;
+}
+
+
+
+
+/* ------------------- responsividade  ------------------------- */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+			#logo-ti {
+			
+			font-size: 20px;
+			margin-left: 10px;
+			letter-spacing: 4px;
+		}
+
+	nav div a img {
+		width: 40px;
+	}
+
+
+
+ }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+			#logo-ti {
+			font-size: 30px;
+			margin-left: 10px;
+			letter-spacing: 5px;
+		}
+
+		nav div a img {
+		width: 45px;
+	}
+
+ }
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+ }
+
+/* ------------------------    CAROUSEL   -------------------    */
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+
+}
+
+
+ #esquerdo .fas.fa-angle-left, #esquerdo .fas.fa-angle-right{
+
+	color: #ffffffff;
+    opacity: 0.6;
+
+}
+
+
+		 #direito .fas.fa-angle-left, #direito .fas.fa-angle-right{
+
+				color: #ffffffff;
+				position: absolute;
+			    top: 35%;
+			    display: inline-block;
+			    margin-top: -10px;
+			    opacity: 0.9;
+
+		}
+
+
+
+
+
+
+
+
+.sumir {
+	opacity: 0;
+}
